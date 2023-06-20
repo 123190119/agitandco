@@ -79,7 +79,7 @@
   --teracotta: #E2725B;
   --w50 :#857f72;
   --w400 :#a39e93;
-  --fs-deskripsi: 12px;
+  --fs-deskripsi: 14px;
 }
 
 .text-black{color:#2B351A !important;}
@@ -743,12 +743,15 @@ nav a.active{
 
 /*** FOOTER ***/
 footer p{
-  font-size: var(--fs-deskripsi) !important;
+  font-size: 12px !important;
   letter-spacing: 1.5px;
 }
 @media screen and (max-width: 767px) {
   footer h1 {
-    font-size: 2rem!important; /* Ubah ukuran teks sesuai kebutuhan */
+    font-size: 1rem!important; /* Ubah ukuran teks sesuai kebutuhan */
+  }
+  footer p {
+    font-size: 0.5rem!important;
   }
 }
 
@@ -834,6 +837,11 @@ footer .social-media a:hover i{
 }
 
 /*** ABOUT ***/
+.about-section h1{
+
+  font-size: 2rem;
+}
+
 .container-fluid.nospace-about {
   height: 100%;
   background-color: var(--w50)!important;
@@ -876,8 +884,10 @@ footer .social-media a:hover i{
   margin-bottom: 20px;
   /* line-height: 25px; */
 }
-
-.devisi,#meetourteam {
+.judul{
+  font-size: 2.2rem!important;
+}
+.devisi{
   text-align: center;
   color: var(--grey-700)!important;
   font-family: "Source Serif Pro";
@@ -977,7 +987,7 @@ footer .social-media a:hover i{
 .photographerName {
   color: var(--w400)!important;
   font-family: "Source Serif Pro";
-  font-size: 20px;
+  font-size: 20px!important;
   font-weight: 400;
   margin-bottom: 0;
   line-height: 25px;

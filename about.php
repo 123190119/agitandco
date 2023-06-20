@@ -46,8 +46,17 @@
                 <div class="row visible-xs visible-sm nospace">
                     <div class="col-xs-12 nospace">
                         <div class="aligner-item wow fadeIn" style="max-width: 700px; padding: 0 60px;overflow: hidden!important;">
-                            <h2 class="mb-50 work-medium " style="font-size: 20px;">HELLO</h2>
-                            <p class="work-regular text-justify">Agit & Co is a photography company dedicated to creating beautiful and unforgettable moments through our lenses. We combine creative photography expertise with cutting-edge technology to deliver exceptional results to our clients. With our extensive experience in this industry, we are ready to capture every important detail in your life with stunning beauty. Agit&Co understands that every precious moment in your life deserves to be captured in impressive photos.</p>
+                            <h1 class="mb-50 work-medium " style="font-size: 20px;">HELLO</h1>
+                            <p class="work-regular text-justify">Did Artistic Photography bring you here?<br><br>
+
+                                Agit & Co has always been surrounded and inspired by arts. <br><br>
+
+                                The Founder “Agit Primaswara” has a background in the world of visual ethnography and painting. He developed his passion for photography to further explore his passion for wedding photography. <br><br>
+
+                                The creative process in the making of concept resulted in such unique forms of photography made of supported by the characteristic, identity, fashion, and creativity. Thereby our core belief is that every couple
+                                has their own unique character. <br><br>
+
+                                We're here not only to capture your moments, but retelling the journey of yours. <br><br></p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +64,7 @@
             </div>
             <div class="container-fluid nospace" id="photographerSection">
                 <div class="meetourteam-wrapper d-flex align-items-center flex-column">
-                    <h1 id="meetourteam" class="judul work-bold mb-1 fs-1">Meet Our Team</h1>
+                    <h1 id="meetourteam" class="judul work-bold mb-1 ">Meet Our Team</h1>
                     <div class="devisi w-50 d-flex justify-content-evenly flex-wrap" style="overflow: hidden;">
                         <a href="#meetourteam" onclick="toggleContent('Photographer')" id="photographerLink" class="devisi">Photographer</a> 
                         <a href="#meetourteam" onclick="toggleContent('Videographer')" id="videographerLink" class="devisi">Videographer</a> 
