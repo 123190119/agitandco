@@ -159,9 +159,9 @@
             
             if(mysqli_query($connect, $query)){
                 // send message to table log_activities
-                echo "Data Edited Successfully";
+                // echo "Data Edited Successfully";
             }else{
-                echo mysqli_error($connect);
+                // echo mysqli_error($connect);
             }
             header('Location: ../journal/viewjournal.php');
             break;
@@ -176,7 +176,7 @@
                 rmdir($path);
 
                 // send message to table log_activities
-                echo "Data Deleted Successfully";
+                // echo "Data Deleted Successfully";
             }
             header('Location: ../journal/viewjournal.php');
             break;

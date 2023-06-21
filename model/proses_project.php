@@ -19,7 +19,7 @@
         $idyoutube      = $_POST['idyoutube'];
         $kategori       = $_POST['kategori'];
         $deskripsi      = $_POST['deskripsi'];
-        echo $idyoutube;
+        // echo $idyoutube;
 
         if(isset($_POST['delete_img'])){
             $delete_img = $_POST['delete_img'];
@@ -73,10 +73,10 @@
             $query = "INSERT INTO ".$tableName." VALUE('$id_project', '$nama', '$lokasi', '$idyoutube', '$kategori', '$string_img', '$deskripsi')";
             if(mysqli_query($connect, $query)){
                 // send message to table log_activities
-                echo "Data Added Successfully";
+                // echo "Data Added Successfully";
             }else{
                 unlink($uploaded_path);
-                echo "Failed Adding Data: ".mysqli_error($connect);
+                // echo "Failed Adding Data: ".mysqli_error($connect);
             }
             header('Location: ../projects/tabel_project.php');
             break;
@@ -180,9 +180,9 @@
             
             if(mysqli_query($connect, $query)){
                 // send message to table log_activities
-                echo "Data Edited Successfully";
+                // echo "Data Edited Successfully";
             }else{
-                echo mysqli_error($connect);
+                // echo mysqli_error($connect);
             }
             header('Location: ../projects/tabel_project.php');
             break;
@@ -197,7 +197,7 @@
                 rmdir($path);
 
                 // send message to table log_activities
-                echo "Data Deleted Successfully";
+                // echo "Data Deleted Successfully";
             }
             header('Location: ../projects/tabel_project.php');
             break;

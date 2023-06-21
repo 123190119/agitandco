@@ -71,10 +71,10 @@
             $query = "INSERT INTO ".$tableName." VALUE('$id_team', '$nama', '$deskripsi', '$ig', '$devisi', '$string_img')";
             if(mysqli_query($connect, $query)){
                 // send message to table log_activities
-                echo "Data Added Successfully";
+                // echo "Data Added Successfully";
             }else{
                 unlink($uploaded_path);
-                echo "Failed Adding Data: ".mysqli_error($connect);
+                // echo "Failed Adding Data: ".mysqli_error($connect);
             }
             header('Location: ../projects/team.php');
             break;
@@ -159,9 +159,9 @@
             
             if(mysqli_query($connect, $query)){
                 // send message to table log_activities
-                echo "Data Edited Successfully";
+                // echo "Data Edited Successfully";
             }else{
-                echo mysqli_error($connect);
+                // echo mysqli_error($connect);
                 // header('Location: ../projects/team.php?gagalanying');
             }
             header('Location: ../projects/team.php');
@@ -177,7 +177,7 @@
                 rmdir($path);
 
                 // send message to table log_activities
-                echo "Data Deleted Successfully";
+                // echo "Data Deleted Successfully";
             }
             header('Location: ../projects/team.php');
             break;

@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-lg" style="background: #504A40 !important;">
             <div class="container">
                 <a class="navbar-brand wow fadeInDown" href="./index.php">
-                    <img src="assets/img/me.png" alt="logo" width="75" />
+                    <img src="assets/img/me.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="color: #f9f9ec !important">
                     <span class="navbar-toggler-icon"></span>

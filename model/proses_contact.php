@@ -13,10 +13,10 @@
             $query = "INSERT INTO pesan VALUE('$id_pesan', '$name', '$email', '$message')";
                 if(mysqli_query($connect, $query)){
                     // send message to table log_activities
-                    echo "Data Added Successfully";
+                    // echo "Data Added Successfully";
                 }else{
                     unlink($uploaded_path);
-                    echo "Failed Adding Data: ".mysqli_error($connect);
+                    // echo "Failed Adding Data: ".mysqli_error($connect);
                 }
                 header('Location: ../contact.php');
         break;
@@ -24,10 +24,10 @@
         $query = "DELETE FROM pesan WHERE `id_pesan` = '$_POST[id_pesan]'";
         if(mysqli_query($connect, $query)){
             // send message to table log_activities
-            echo "Data Added Successfully";
+            // echo "Data Added Successfully";
         }else{
             unlink($uploaded_path);
-            echo "Failed Adding Data: ".mysqli_error($connect);
+            // echo "Failed Adding Data: ".mysqli_error($connect);
         }
         header('Location: ../profile/pesan.php');
         
