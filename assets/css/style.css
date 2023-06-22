@@ -228,7 +228,8 @@ nav{
   z-index: 100;
 }
 .navbar-brand img{
-  width: 65px;
+  padding-top: 0.75rem;
+  width: 45px;
 }
 /* Logo pada mode mobile */
 @media screen and (max-width: 1024px) {
@@ -751,6 +752,10 @@ footer p{
   padding-right: 3rem;
   text-align: justify;
 }
+footer a:hover{
+  filter: brightness(.4);
+  -webkit-filter: brightness(.4);
+}
 @media screen and (max-width: 767px) {
   footer h1 {
     font-size: 1rem!important; /* Ubah ukuran teks sesuai kebutuhan */
@@ -781,15 +786,49 @@ footer .col-lg-2 h1{
 
 .home-section footer h1,
 .home-section footer p,
+.home-section footer a,
+.home-section footer span,
 .portfolio-section footer h1,
 .portfolio-section footer p,
+.portfolio-section footer a,
+.portfolio-section footer span,
 .portfolio-details footer h1,
 .portfolio-details footer p,
+.portfolio-details footer a,
+.portfolio-details footer span,
 .about-section footer h1,
-.about-section footer p{
+.about-section footer p,
+.about-section footer a,
+.about-section footer span,
+.contact-section footer h1,
+.contact-section footer p,
+.contact-section footer a,
+.contact-section footer span{
   color: var(--grey-700) !important;
 }
+@media only screen and (max-width: 767px) {
+  footer span{
+    font-size: 0.5rem;
+  }
+}
+.copyright p,
+.credits p,
+.copyright span{
+  font-size: 0.65rem!important;
+}
+.copyright {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center; /* Mengatur posisi horizontal menjadi tengah */
+  align-items: center; 
+}
 
+.credits {
+  display: flex;
+  justify-content: center; /* Mengatur posisi horizontal menjadi tengah */
+  align-items: center;
+  margin-bottom: -3rem; 
+}
 /* Dark footer */
 .journal-section footer,
 .journal-details footer,

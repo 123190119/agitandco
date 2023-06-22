@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <link rel="icon" href="../assets/img/logotab.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/img/me.png" type="image/x-icon">
   <title>Pages / Login - Sirius Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -50,8 +51,8 @@
 
               <div class="d-flex justify-content-center py-4">
                 <a href="#" class="logo d-flex align-items-center w-auto">
-                  <img src="../assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Sirius</span>
+                  <img src="../assets/img/logotab.png" alt="">
+                  <span class="d-none d-lg-block work-medium text-black">Admin | Agit & Co</span>
                 </a>
               </div><!-- End Logo -->
 

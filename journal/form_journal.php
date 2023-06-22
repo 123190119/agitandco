@@ -15,7 +15,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link rel="icon" href="../assets/img/me.png" type="image/x-icon">
+  <link rel="icon" href="../assets/img/logotab.png" type="image/x-icon">
   <link rel="shortcut icon" href="../assets/img/me.png" type="image/x-icon">
   <title>Halaman Admin | Journal - Agit & Co</title>
   <meta content="" name="description">
@@ -339,7 +339,7 @@
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://Sirius.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://Sirius.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://Sirius.com/">Sirius</a>
+      Designed by <a href="https://instagram.com/siriuscreative_">Sirius Creative</a>
     </div>
   </footer><!-- End Footer -->
 
