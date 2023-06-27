@@ -825,6 +825,7 @@ footer .col-lg-2 h1{
   display: flex;
   justify-content: center; /* Mengatur posisi horizontal menjadi tengah */
   align-items: center; 
+  margin-bottom: -1rem;
 }
 
 .credits {
