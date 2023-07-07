@@ -803,7 +803,11 @@ footer .col-lg-2 h1{
 .contact-section footer h1,
 .contact-section footer p,
 .contact-section footer a,
-.contact-section footer span{
+.contact-section footer span,
+.journal-details footer h1,
+.journal-details footer p,
+.journal-details footer a,
+.journal-details footer span{
   color: var(--grey-700) !important;
 }
 @media only screen and (max-width: 767px) {
@@ -821,6 +825,7 @@ footer .col-lg-2 h1{
   display: flex;
   justify-content: center; /* Mengatur posisi horizontal menjadi tengah */
   align-items: center; 
+  margin-bottom: -1rem;
 }
 
 .credits {

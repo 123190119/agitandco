@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </nav>
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-bs-interval="10000">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-bs-interval="3000">
                 <div class="carousel-indicators">
                     <?php
                         include 'model/connect.php'; 
@@ -68,7 +68,7 @@
                     <?php
                         foreach($array_imgs as $img ){
                     ?>
-                    <div class="carousel-item <?php if(array_search($img, $array_imgs) == 0) echo 'active' ?>" style="background-image: linear-gradient(#00000065, #00000000), url(<?='assets/img/page/home/'.$img?>);" data-bs-interval="5000">
+                    <div class="carousel-item <?php if(array_search($img, $array_imgs) == 0) echo 'active' ?>" style="background-image: linear-gradient(#00000065, #00000000), url(<?='assets/img/page/home/'.$img?>);" data-bs-interval="3000">
                     </div>
                     <?php } ?>
                 </div>
@@ -105,7 +105,7 @@
     <script>
             // Inisialisasi carousel
             var carousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'), {
-                interval: 5000  // Atur interval pergantian slide
+                interval: 3000  // Atur interval pergantian slide
             });
             // Menyembunyikan dan menampilkan navbar saat tombol navbar di mode mobile ditekan
             var navbarToggler = document.querySelector('.navbar-toggler');
