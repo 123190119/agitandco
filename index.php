@@ -107,7 +107,21 @@
             var carousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'), {
                 interval: 5000  // Atur interval pergantian slide
             });
-            </script>
+            // Menyembunyikan dan menampilkan navbar saat tombol navbar di mode mobile ditekan
+            var navbarToggler = document.querySelector('.navbar-toggler');
+            var navbarNav = document.querySelector('.navbar-nav');
+
+            navbarToggler.addEventListener('click', function () {
+                navbarNav.classList.toggle('show');
+                if (navbarNav.classList.contains('show')) {
+                    navbarToggler.setAttribute('aria-expanded', 'true');
+                } else {
+                    navbarToggler.setAttribute('aria-expanded', 'false');
+                }
+            });
+    </script>
+
+
     
 </body>
 </html>
