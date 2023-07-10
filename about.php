@@ -47,7 +47,7 @@
                     <div class="col-xs-12 nospace">
                         <div class="aligner-item wow fadeIn" style="max-width: 700px; padding: 0 60px;overflow: hidden!important;">
                             <h1 class="mb-50 work-medium " style="font-size: 20px;">HELLO</h1>
-                            <p class="work-regular text-justify">Did Artistic Photography bring you here?<br><br>
+                            <p class="aboutdetails work-regular text-justify">Did Artistic Photography bring you here?<br><br>
 
                                 Agit & Co has always been surrounded and inspired by arts. <br><br>
 
@@ -66,10 +66,10 @@
                 <div class="meetourteam-wrapper d-flex align-items-center flex-column">
                     <h1 id="meetourteam" class="judul work-bold mb-1 ">Meet Our Team</h1>
                     <div class="devisi w-50 d-flex justify-content-evenly flex-wrap" style="overflow: hidden;">
-                        <a href="#meetourteam" onclick="toggleContent('Photographer')" id="photographerLink" class="devisi">Photographer</a> 
-                        <a href="#meetourteam" onclick="toggleContent('Videographer')" id="videographerLink" class="devisi">Videographer</a> 
-                        <a href="#meetourteam" onclick="toggleContent('Team')" id="teamLink" class="devisi">Team</a>
-                        <a href="#meetourteam" onclick="showAll()" id="allLink" class="devisi">All</a>
+                        <a href="#meetourteam" onclick="toggleContent('Photographer')" id="photographerLink" class="devisi-list">Photographer</a> 
+                        <a href="#meetourteam" onclick="toggleContent('Videographer')" id="videographerLink" class="devisi-list">Videographer</a> 
+                        <a href="#meetourteam" onclick="toggleContent('Team')" id="teamLink" class="devisi-list">Team</a>
+                        <a href="#meetourteam" onclick="showAll()" id="allLink" class="devisi-list">All</a>
                     </div>
                 </div>
             

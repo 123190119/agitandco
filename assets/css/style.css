@@ -818,7 +818,7 @@ footer .col-lg-2 h1{
 .copyright p,
 .credits p,
 .copyright span{
-  font-size: 0.65rem!important;
+  font-size: 0.5rem!important;
 }
 .copyright {
   padding-top: 2rem;
@@ -833,6 +833,13 @@ footer .col-lg-2 h1{
   justify-content: center; /* Mengatur posisi horizontal menjadi tengah */
   align-items: center;
   margin-bottom: -3rem; 
+}
+@media (max-width:720px){
+  .copyright p,
+  .credits p,
+  .copyright span{
+    font-size: 0.5rem!important;
+}
 }
 /* Dark footer */
 .journal-section footer,
@@ -892,6 +899,12 @@ footer .social-media a:hover i{
 
   font-size: 2rem;
 }
+@media (max-width:720px){
+  .aboutdetails{
+    font-size: 10px;
+  }
+
+}
 
 .container-fluid.nospace-about {
   height: 100%;
@@ -936,7 +949,12 @@ footer .social-media a:hover i{
   /* line-height: 25px; */
 }
 .judul{
-  font-size: 2.2rem!important;
+  font-size: 2.2rem;
+}
+@media (max-width:720px){
+  .judul{
+    font-size: 12px;
+  }
 }
 .devisi{
   text-align: center;
