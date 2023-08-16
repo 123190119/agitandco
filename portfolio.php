@@ -84,7 +84,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/engagement.jpg);">
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/engagement_cover.jpg);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -93,7 +93,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/family.jpg);">
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/family_cover.jpg);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
