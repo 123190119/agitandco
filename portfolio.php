@@ -75,7 +75,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(https://iluminen.com/wp-content/uploads/2023/02/086-storyboard.jpg);">
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/wedding.jpg);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -84,7 +84,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(https://iluminen.com/wp-content/uploads/2022/09/060-storyboard-2-1.jpg);">
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/engagement.jpg);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -93,7 +93,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(https://images.pexels.com/photos/5638747/pexels-photo-5638747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/family.jpg);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
