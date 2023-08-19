@@ -681,7 +681,9 @@ nav a.active{
 .portfolio-details-gallery{
   width: 50%;
 }
-
+#portfolio-image{
+  padding: 0.25rem 0 0.25rem 0;
+}
 @media screen and (max-width:767px){
   .portfolio-details-gallery{
     width: 100%;
