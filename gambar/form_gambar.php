@@ -239,6 +239,13 @@
                         <option value="portofolio" <?php if($tempatgambar =="portofolio") echo 'selected'; ?>>Portofolio</option>
                         <option value="journal" <?php if($tempatgambar =="journal") echo 'selected'; ?>>Journal</option>
                         <option value="contact" <?php if($tempatgambar =="contact") echo 'selected'; ?>>Contact</option>
+                        <option value="cover_prewed" <?php if($tempatgambar =="cover_prewed") echo 'selected'; ?>>cover prewed</option>
+                        <option value="cover_wedding" <?php if($tempatgambar =="cover_wedding") echo 'selected'; ?>>cover wedding</option>
+                        <option value="cover_engagement" <?php if($tempatgambar =="cover_engagement") echo 'selected'; ?>>cover engagement</option>
+                        <option value="cover_family" <?php if($tempatgambar =="cover_family") echo 'selected'; ?>>cover family</option>
+                        <option value="cover_film" <?php if($tempatgambar =="cover_film") echo 'selected'; ?>>cover film</option>
+                        <option value="cover_etc" <?php if($tempatgambar =="cover_etc") echo 'selected'; ?>>cover etc</option>
+
                       </select>
                       <!-- <input type="date" class="form-control" name="tanggal" id="projectName" value=<?= $tanggal ?>/> -->
                     </div>

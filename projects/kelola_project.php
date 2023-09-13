@@ -266,6 +266,7 @@
                         <option value="Pre-Wedding" <?php if($kategori =="Pre-Wedding") echo 'selected'; ?>>Pre Wedding</option>
                         <option value="Wedding" <?php if($kategori =="Wedding") echo 'selected'; ?>>Wedding</option>
                         <option value="Studio" <?php if($kategori =="Studio") echo 'selected'; ?>>Studio</option>
+                        <option value="Engagement" <?php if($kategori =="Engagement") echo 'selected'; ?>>Engagement</option>
                         <option value="Family" <?php if($kategori =="Family") echo 'selected'; ?>>Family</option>
                         <option value="Film" <?php if($kategori =="Film") echo 'selected'; ?>>Film</option>
                         <option value="Etc" <?php if($kategori =="Etc") echo 'selected'; ?>>Etc</option>

@@ -83,7 +83,7 @@
             if(empty(array_search($tempatgambar, $tmp_tempatGambar))){
                 if(mysqli_query($connect, $query)){
                     // send message to table log_activities
-                    echo "Data Added Successfully";
+                    // echo "Data Added Successfully";
                     header('Location: ../gambar/viewgambar.php?berhasil');
                 }else{
                     unlink($uploaded_path);

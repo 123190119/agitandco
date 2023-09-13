@@ -66,7 +66,19 @@
         <div class="portfolio-container" id='portfolio'>
             <div class="container-fluid">
                 <div class="row portfolios-wrapper">
-                    <div class="portfolio-item col-12 text-light wow fadeInUp">
+                        <?php
+                            $query = mysqli_query($connect, "SELECT * FROM background WHERE tempatgambar='cover_prewed'");
+                            while($data=mysqli_fetch_array($query)){
+                            $id_gambar_cover_prewed            =$data[0];
+                            $tempatgambar_cover_prewed         =$data[1];
+                            $img_files_cover_prewed            =$data[2];
+                            }
+
+                            if(isset($img_files)){
+                                $array_imgs = explode(",", $img_files_cover_prewed);
+                            }
+                        ?>
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(<?='assets/img/page/'.$img_files_cover_prewed?>);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -75,7 +87,19 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/wedding.jpg);">
+                    <?php
+                            $query = mysqli_query($connect, "SELECT * FROM background WHERE tempatgambar='cover_wedding'");
+                            while($data=mysqli_fetch_array($query)){
+                            $id_gambar_cover_wedding            =$data[0];
+                            $tempatgambar_cover_wedding         =$data[1];
+                            $img_files_cover_wedding            =$data[2];
+                            }
+
+                            if(isset($img_files)){
+                                $array_imgs = explode(",", $img_files_cover_wedding);
+                            }
+                        ?>
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(<?='assets/img/page/'.$img_files_cover_wedding?>);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -84,7 +108,19 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/engagement_cover.jpg);">
+                    <?php
+                            $query = mysqli_query($connect, "SELECT * FROM background WHERE tempatgambar='cover_engagement'");
+                            while($data=mysqli_fetch_array($query)){
+                            $id_gambar_cover_engagement            =$data[0];
+                            $tempatgambar_cover_engagement         =$data[1];
+                            $img_files_cover_engagement            =$data[2];
+                            }
+
+                            if(isset($img_files)){
+                                $array_imgs = explode(",", $img_files_cover_engagement);
+                            }
+                        ?>
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(<?='assets/img/page/'.$img_files_cover_engagement?>);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -93,7 +129,19 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(assets/img/family_cover.jpg);">
+                    <?php
+                            $query = mysqli_query($connect, "SELECT * FROM background WHERE tempatgambar='cover_family'");
+                            while($data=mysqli_fetch_array($query)){
+                            $id_gambar_cover_family            =$data[0];
+                            $tempatgambar_cover_family         =$data[1];
+                            $img_files_cover_family            =$data[2];
+                            }
+
+                            if(isset($img_files)){
+                                $array_imgs = explode(",", $img_files_cover_family);
+                            }
+                        ?>
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(<?='assets/img/page/'.$img_files_cover_family?>);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -102,7 +150,19 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(https://images.pexels.com/photos/1870438/pexels-photo-1870438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <?php
+                            $query = mysqli_query($connect, "SELECT * FROM background WHERE tempatgambar='cover_film'");
+                            while($data=mysqli_fetch_array($query)){
+                            $id_gambar_cover_film            =$data[0];
+                            $tempatgambar_cover_film         =$data[1];
+                            $img_files_cover_film            =$data[2];
+                            }
+
+                            if(isset($img_files)){
+                                $array_imgs = explode(",", $img_files_cover_film);
+                            }
+                        ?>
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(<?='assets/img/page/'.$img_files_cover_film?>);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
@@ -111,7 +171,19 @@
                             </form>
                         </div>
                     </div>
-                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(https://images.pexels.com/photos/2962403/pexels-photo-2962403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                    <?php
+                            $query = mysqli_query($connect, "SELECT * FROM background WHERE tempatgambar='cover_etc'");
+                            while($data=mysqli_fetch_array($query)){
+                            $id_gambar_cover_etc            =$data[0];
+                            $tempatgambar_cover_etc         =$data[1];
+                            $img_files_cover_etc            =$data[2];
+                            }
+
+                            if(isset($img_files)){
+                                $array_imgs = explode(",", $img_files_cover_etc);
+                            }
+                        ?>
+                    <div class="portfolio-item col-12 text-light wow fadeInUp" style="background-image:linear-gradient(#2b262384,#2b262384), url(<?='assets/img/page/'.$img_files_cover_etc?>);">
                         <div class="portfolio-content category wow fadeInRight">
                             <form action="./portfolios.php" method="get" enctype="multipart/form-data">
                                 <input type="hidden" name="page-nr" value="1">
